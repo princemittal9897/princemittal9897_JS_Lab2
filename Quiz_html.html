@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <Link href="Quiz_CSS.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div id="container">
+        <div id="quiz">
+            <h2>Javascript Quiz</h2>
+            <hr>
+            <p id="question_area">Question Here</p>
+            <div id="question_options">
+                <input type="radio" name="option" value="option1" id="option1" class="option">
+                <label for="option1" id="optionlabel1"> Option1</label><br>
+                <input type="radio" name="option" value="option12" id="option2" class="option">
+                <label for="option2" id="optionlabel2"> Option2</label><br>
+                <input type="radio" name="option" value="option3" id="option3" class="option">
+                <label for="option3" id="optionlabel3"> Option3</label><br>
+                <input type="radio" name="option" value="option4" id="option4" class="option">
+                <label for="option4" id="optionlabel4"> Option4</label><br>
+            </div>
+            <hr/>
+            <p id="progress"></p>
+            <Button id="next">Next Question</Button>
+        </div>
+    </div>
+    <script src="quiz_js.js"></script>
+</body>
+</html>

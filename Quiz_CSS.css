@@ -1,0 +1,28 @@
+body{
+    background-color: cyan;
+}
+
+h2{
+    text-align: center;
+    color:white;
+    background-color: rgb(56, 51, 51);
+}
+#question_area{
+    text-align: center;
+}
+#container {
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 10px 50px 50px 50px;
+    border: 2px solid #cbcbcb;  
+}
+#question_options {
+    padding: 20px;
+}
+
+#optionlabel1:hover,#optionlabel2:hover,#optionlabel3:hover,#optionlabel4:hover{
+    background-color: blue;
+    color:white;  
+}
